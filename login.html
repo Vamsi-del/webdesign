@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<form action="result.html">
+		<label for="uname">Enter User Name or Email Address:</label>
+		<input id="unmae" type="text" name="User" placeholder="Enter User Name or Email" required><br>
+		<br>
+		<label for="pass">Enter Password:</label>
+		<input id="pass" type="password" name="paswd" placeholder="Enter Password" required><br>
+		<br>
+		<h4 align="center"><a href="forgot.html">Forgot Password?</a><input type="submit" name="login" value="Login"></h4>
+		<p align="center"><label for="gg" align="center">Always Keep Me Logged in</label>
+		<input id="gg" type="checkbox" name="Logged" value="yes" checked></p>
+	</form>
+	<br>
+	<br>
+	<form>
+		<label for="gg">Select Payment mode</label>
+		<select  id="gg" name="Payment Mode" multiple>
+			<option value="CC" checked>Credit Card</option>
+			<option value="DD">Debit Card</option>
+			<option value="NB">Net Banking</option>
+		</select>
+		<input type="submit" name="Payment">
+	</form>
+</body>
+</html>
